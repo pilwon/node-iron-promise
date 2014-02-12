@@ -14,11 +14,19 @@ var ironMQ = new IronMQ({
   projectId: PROJECT_ID
 });
 
-var q = ironMQ.queue('test');
+var queueTest1 = ironMQ.queue('test-1'),
+    queueTest2 = ironMQ.queue('test-2');
 
-q
-  .post(['Hello', 'World'])
-  .then(q.info.bind(q))
+queueTest1
+  .post(['Hello', 'Test 1'])
+  .then(queueTest1.info.bind(queueTest1))
+  .done(function (result) {
+    console.log(result);
+  });
+
+queueTest1
+  .post(['Hello', 'Test 2'])
+  .then(queueTest2.info.bind(queueTest2))
   .done(function (result) {
     console.log(result);
   });
