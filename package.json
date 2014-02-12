@@ -1,0 +1,43 @@
+{
+  "name": "ironmq-promise",
+  "description": "IronMQ API client library for Node.js (supports Promise pattern)",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Pilwon Huh",
+    "email": "pilwon@gmail.com"
+  },
+  "homepage": "https://github.com/pilwon/node-ironmq-promise",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/node-ironmq-promise.git"
+  },
+  "keywords": [
+    "ironmq",
+    "iron",
+    "mq",
+    "message",
+    "queue",
+    "worker",
+    "wrapper",
+    "promise",
+    "client",
+    "library",
+    "node.js"
+  ],
+  "dependencies": {
+    "ironmq": "~0.1.4",
+    "q": "~1.0.0"
+  },
+  "devDependencies": {
+    "colors": "~0.6.2",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "matchdep": "~0.3.0"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  }
+}
