@@ -1,5 +1,5 @@
 {
-  "name": "ironmq-promise",
+  "name": "iron-promise",
   "description": "IronMQ API client library for Node.js (supports Promise pattern)",
   "version": "0.1.0",
   "license": "MIT",
@@ -7,10 +7,10 @@
     "name": "Pilwon Huh",
     "email": "pilwon@gmail.com"
   },
-  "homepage": "https://github.com/pilwon/node-ironmq-promise",
+  "homepage": "https://github.com/pilwon/node-iron-promise",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pilwon/node-ironmq-promise.git"
+    "url": "git://github.com/pilwon/node-iron-promise.git"
   },
   "keywords": [
     "ironmq",

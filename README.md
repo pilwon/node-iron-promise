@@ -1,9 +1,9 @@
-# ironmq-promise
+# iron-promise
 
 
-[![NPM](https://nodei.co/npm/ironmq-promise.png?downloads=false&stars=false)](https://npmjs.org/package/ironmq-promise) [![NPM](https://nodei.co/npm-dl/ironmq-promise.png?months=6)](https://npmjs.org/package/ironmq-promise)
+[![NPM](https://nodei.co/npm/iron-promise.png?downloads=false&stars=false)](https://npmjs.org/package/iron-promise) [![NPM](https://nodei.co/npm-dl/iron-promise.png?months=6)](https://npmjs.org/package/iron-promise)
 
-`ironmq-promise` is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) version of [iron_mq_node](https://github.com/iron-io/iron_mq_node), the official API client library of [IronMQ](http://www.iron.io/mq) for [Node.js](http://nodejs.org/).
+`iron-promise` is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) version of [iron_mq_node](https://github.com/iron-io/iron_mq_node), the official API client library of [IronMQ](http://www.iron.io/mq) for [Node.js](http://nodejs.org/).
 
 This wrapper library made the following changes:
 
@@ -14,13 +14,13 @@ This wrapper library made the following changes:
 
 ## Installation
 
-    $ npm install ironmq-promise
+    $ npm install iron-promise
 
 
 ## Usage
 
 ```js
-var ironMQ = new (require('ironmq-promise'))({
+var ironMQ = new (require('iron-promise'))({
   token: '<token>',
   projectId: '<project-id>',
   // queue: 'default'
@@ -31,7 +31,7 @@ ironMQ.post(['Hello', 'World']).then(function (result) {
 });
 ```
 
-* [See more comprehensive examples here.](https://github.com/pilwon/node-ironmq-promise/tree/master/examples)
+* [See more comprehensive examples here.](https://github.com/pilwon/node-iron-promise/tree/master/examples)
 
 
 ## API
@@ -61,7 +61,7 @@ ironMQ.post(['Hello', 'World']).then(function (result) {
 
 ## Credits
 
-  See the [contributors](https://github.com/pilwon/node-ironmq-promise/graphs/contributors).
+  See the [contributors](https://github.com/pilwon/node-iron-promise/graphs/contributors).
 
 
 ## License
@@ -91,4 +91,4 @@ THE SOFTWARE.
 </pre>
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-47034562-20/node-ironmq-promise/readme?pixel)](https://github.com/pilwon/node-ironmq-promise)
+[![Analytics](https://ga-beacon.appspot.com/UA-47034562-20/node-iron-promise/readme?pixel)](https://github.com/pilwon/node-iron-promise)
