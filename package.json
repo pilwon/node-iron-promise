@@ -2,7 +2,6 @@
   "name": "ironmq-promise",
   "description": "IronMQ API client library for Node.js (supports Promise pattern)",
   "version": "0.1.0",
-  "private": true,
   "license": "MIT",
   "author": {
     "name": "Pilwon Huh",
