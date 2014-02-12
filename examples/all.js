@@ -16,6 +16,9 @@ var ironMQ = new IronMQ({
 
 var q = ironMQ.queue('test');
 
-q.post(['Hello', 'World']).then(function (result) {
-  console.log(result);
-});
+q
+  .post(['Hello', 'World'])
+  .then(q.info.bind(q))
+  .done(function (result) {
+    console.log(result);
+  });

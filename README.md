@@ -26,9 +26,12 @@ var ironMQ = new (require('iron-promise'))({
   // queue: 'default'
 });
 
-ironMQ.post(['Hello', 'World']).then(function (result) {
-  console.log(result);
-});
+ironMQ
+  .post(['Hello', 'World'])
+  .then(q.info.bind(q))
+  .done(function (result) {
+    console.log(result);
+  });
 ```
 
 * [See more comprehensive examples here.](https://github.com/pilwon/node-iron-promise/tree/master/examples)
