@@ -1,6 +1,6 @@
 {
   "name": "iron-promise",
-  "description": "Promise-style IronMQ API client library for Node.js (wrapper for the official client)",
+  "description": "Promise/A+ supported IronMQ API client library for Node.js (wrapper for the official client)",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
