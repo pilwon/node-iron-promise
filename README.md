@@ -3,11 +3,11 @@
 
 [![NPM](https://nodei.co/npm/iron-promise.png?downloads=false&stars=false)](https://npmjs.org/package/iron-promise) [![NPM](https://nodei.co/npm-dl/iron-promise.png?months=6)](https://npmjs.org/package/iron-promise)
 
-`iron-promise` is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) version of [iron_mq_node](https://github.com/iron-io/iron_mq_node), the official API client library of [IronMQ](http://www.iron.io/mq) for [Node.js](http://nodejs.org/).
+`iron-promise` is a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-style wrapper of [iron_mq_node](https://github.com/iron-io/iron_mq_node), the official API client library of [IronMQ](http://www.iron.io/mq) for [Node.js](http://nodejs.org/).
 
 This wrapper library made the following changes:
 
-* Supports Promise pattern (instead of callback)
+* Supports Promise style (instead of callback)
 * Renamed `underscore_case` to `camelCase` for function and variable names
 * Cleaned up API by converting ugly pythonic names to explicit JS-friendly names (ex: `del_msg_push_status` to `deleteMessagePushStatus`)
 
