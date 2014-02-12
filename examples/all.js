@@ -24,7 +24,7 @@ queueTest1
     console.log(result);
   });
 
-queueTest1
+queueTest2
   .post(['Hello', 'Test 2'])
   .then(queueTest2.info.bind(queueTest2))
   .done(function (result) {
