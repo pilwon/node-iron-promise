@@ -20,15 +20,15 @@ This wrapper library made the following changes:
 ## Usage
 
 ```js
-var ironMQ = new (require('iron-promise'))({
+var queue = new (require('iron-promise'))({
   token: '<token>',
   projectId: '<project-id>',
   // queue: 'default'
 });
 
-ironMQ
+queue
   .post(['Hello', 'World'])
-  .then(q.info.bind(q))
+  .then(queue.info.bind(queue))
   .done(function (result) {
     console.log(result);
   });
