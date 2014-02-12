@@ -26,8 +26,8 @@
     "node.js"
   ],
   "dependencies": {
-    "ironmq": "~0.1.4",
-    "q": "~1.0.0"
+    "bluebird": "~1.0.4",
+    "iron_mq": "~0.2.1"
   },
   "devDependencies": {
     "colors": "~0.6.2",
