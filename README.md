@@ -7,7 +7,7 @@
 
 This wrapper library made the following changes:
 
-* Supports Promise/A+ pattern (instead of callback)
+* Supports [Promise/A+](http://promises-aplus.github.io/promises-spec/) pattern (instead of callback)
 * Renamed `underscore_case` to `camelCase` for function and variable names
 * Cleaned up API by converting ugly pythonic names to explicit JS-friendly names (ex: `del_msg_push_status` to `deleteMessagePushStatus`)
 
